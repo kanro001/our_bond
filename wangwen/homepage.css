@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+body {
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	background-color:azure;
+	background:azure url(..img/bg.jpg) repeat-x fixed top;
+}
+
+.header{
+	height:69px;
+	width:950px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:skyblue;
+}
+
+.login{
+    text-align: right;
+}
+
+#logged_header{
+	position:fixed;
+	height:82px;
+	width:950px;
+	
+	background-color:skyblue;
+}
+.form{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:skyblue;
+}
+#main{
+	width:100%;
+	float:left;
+}
+#member_menu{
+	width:100%;
+	text-align:left;
+}
+#member_bonds{
+	width:20%;
+    float:left;
+	
+}
+#member_items{
+	width:inherit;
+    width:60%;
+	float:left
+	
+}
+#member_recommendations{
+	width:20%;
+        float:left;
+	
+}
+#footer{
+	text-align:center;
+}
+#member_item{
+	width:inherit;
+	width:100%;
+}
+#member_post{
+	position:relative;
+	left:50px;
+	width:90%;
+}
+#member_comment{
+	position:relative;
+	left:200px;
+	width:60%;
+}
+#member_new_comment{
+	position:relative;
+	left:200px;
+}
+#bonds_menu{
+	text-align:left;
+	list-style:none;
+	padding:0px;
+}
+.bonds_options{
+	padding:3px 0px 3px 30px;
+	list-style:none;
+	display:block;
+}
+#form{
+	text-align:right;
+}
+

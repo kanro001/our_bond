@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+html {
+	//text-align:center;
+}
+body {
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:950px;
+	background-color:azure;
+	background:azure url(..img/bg.jpg) repeat-x fixed top;
+}
+
+.header{
+	height:82px;
+	width:950px;
+	margin-bottom:10px;
+	background-color:skyblue;
+	z-index:10;
+}
+.form{
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:skyblue;
+}
+#header{
+	position:relative;
+}
+
+#main{
+	width:100%;
+	float:left;
+}
+#member_menu{
+	width:100%;
+	text-align:left;
+	height:30px;
+	position:relative;
+	background-color:skyblue;
+	z-index:10;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+#member_bonds{
+	
+	margin-top:-10px;
+	margin-bottom:10px;
+	width:20%;
+    float:left;
+    position:relative;
+    z-index:0;
+}
+#member_items{
+	
+	margin-top:-10px;
+	margin-bottom:10px;
+	width:inherit;
+    width:60%;
+	float:left
+	
+}
+
+#member_recommendations{
+	
+	margin-top:-10px;
+	margin-bottom:10px;
+	width:20%;
+    float:left;
+	position:relative;
+}
+#footer{
+	text-align:center;
+}
+#member_item{
+	width:inherit;
+	width:100%;
+}
+#member_post{
+	position:relative;
+	left:50px;
+	width:90%;
+}
+#member_comment{
+	position:relative;
+	left:200px;
+	width:60%;
+}
+#member_new_comment{
+	position:relative;
+	left:200px;
+}
+#bonds_menu{
+	text-align:left;
+	list-style:none;
+	padding:0px;
+}
+.bonds_options{
+	padding:3px 0px 3px 30px;
+	list-style:none;
+	display:block;
+}
+
+#span{
+	background-color:skyblue
+}
+#groupimg{position:relative; margin-left:33px; margin-top:-30px}
+#postid{text-align:center; position:relative; margin-left:33px}
+#admin{position:absolute;width:100px; height:300px;border:2px solid skyblue;left:-200px;top:200px;text-align:left}

@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+html {text-align:center;}
+body {position:relative;margin:0; margin-left:auto; margin-right:auto; width:950px;}
+a {text-decoration: none}
+a:hover {text-decoration: underline}
+#login_header{width:950px; height:82px; margin-top:10px; margin-bottom:10px; background-color:skyblue;}
+#login{width:950px; margin-top:10px; margin-bottom:10px; background-color:skyblue;}
+#register{width:950px; margin-top:10px; margin-bottom:10px; background-color:skyblue;}
+#header{position:relative;width:950px; height:82px; margin-top:10px; margin-bottom:10px; background-color:skyblue;}
+#group {margin-top:10px; margin-bottom:10px; border:solid 2px blue;}
+#group td{text-align:center;color:blue; font-size:30px}
+#personal_h{width : 1920px; margin-top:10px; height: 60px; background-color:skyblue;}
+#span{background-color:skyblue}
+#groupimg{position:relative; margin-left:33px; margin-top:-30px}
+#postid{text-align:center; position:relative; margin-left:33px}
+#admin{position:absolute;width:100px; height:300px;border:2px solid skyblue;left:-200px;top:200px;text-align:left}
+table{border-collapse:collapse;vertical-align:middle;}
+table td{padding:0px}
+#c_t_p{margin-left:100px}
+#c_t_m{border:1px #A9CBEE solid; margin:5px;}
+#c_t{border:1px solid #A9CBEE;background-color:#f6f9fe;}
+#c_t_s{background-color:white}
+#c_div{width:190px}
+#s_div{width:750px;margin-left:105px;margin-top:50px;border:1px solid #A9CBEE;background-color:#f6f9fe;}
+#s_div_2{margin-left:150px;margin-top:-250px}
+#s_div_1{width:200px;height:200px;margin-left:-18px;margin-top:50px}
+#post{margin-left:1px;margin-top:1px;border:1px solid skyblue;width:200px;height:400px}
+#post_pic{width:150px;height:150px;margin-left:25px;margin-top:25px}
+#post_founder{width:150px;text-align:center;height:20px;margin-left:25px;margin-top:15px}
+#post_date{width:150px;text-align:center;height:20px;margin-left:25px;margin-top:15px}
+#post_like{width:150px;text-align:center;height:20px;margin-left:25px;margin-top:15px}
+#post_brief{width:150px;height:100px;text-align:center;height:90px;margin-left:25px;margin-top:15px;background-color:#f6f9fe}
+#toolbar{position:absolute;left:-100px;top:200px;border:1px solid #A9CBEE;width:150px;height:510px;}
+#toolbar div{text-align:left;width:148px;height:45px;margin-top:5px;margin-left:1px;background-color:#f6f9fe}
+#toolbar #search_bond{text-align:left;width:148px;height:80px;margin-top:5px;margin-left:1px;background-color:#f6f9fe}
+#toolbar #date{text-align:left;width:148px;height:60px;margin-top:5px;margin-left:1px;background-color:#f6f9fe}
+#toolbar span:hover{background-color:skyblue}
+#delete{position:relative;left:25px;top:-260px}
+#navigator{height:50px;position:relative;left:-200px;top:20px}
+#navigator span{background-color:skyblue;}

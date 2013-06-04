@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Register Page</title>
+        <script type="text/javascript" src="home_page.js"/>
+    </head>
+    <body>
+        <form name="sign_up" action="" method="post">
+           <p>
+                <label>Last Name</label>
+                <input type="text" name="lname"/>
+            </p>
+           
+           <p>
+                <label>First Name</label>
+                <input type="text" name="fname"/>
+           </p>
+           
+           <p>
+                <label>Email</label>
+                <input type="text" name="email"/>
+           </p>
+           
+           <p>
+                <label>Password</label>
+                <input type="password" name="psw"/>
+           </p>
+           
+           <p>
+                <label>Male</label>
+                <input type="radio" checked="checked" name="sex" value="male"/>
+                <label>Female</label>
+                <input type="radio" name="sex" value="female"/>
+           </p>
+           
+           <p>
+                <label>Date of Birth</label>
+                Month
+                    <select name="dob">
+                        <option value="01" selected="selected">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                        <option value="04">4</option>
+                        <option value="05">5</option>
+                        <option value="06">6</option>
+                        <option value="07">7</option>
+                        <option value="08">8</option>
+                        <option value="09">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                Day
+                    <input type="text" name="day"/>
+                Year
+                    <input type="text" name="year"/>
+           </p>
+           
+           <p>
+                <input type="button" value="Submit" onclick="check_void();"/>
+           </p>
+        </form>
+        
+        
+    </body>
+</html>
